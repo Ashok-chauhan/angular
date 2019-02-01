@@ -1,0 +1,11 @@
+<h1>
+  {{ getTitle() }}
+</h1>
+<div>
+  <ul>
+    <li *ngFor="let ntitle of newstitle">
+      {{ ntitle.title }} ------ {{ntitle.description}}
+
+    </li>
+  </ul>
+</div>
